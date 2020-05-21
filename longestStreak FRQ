@@ -1,0 +1,18 @@
+public static int longestStreak(String str) {
+  int max = 1;
+  int divaDance = 1;
+  char sun = str.charAt(0);
+  for (int i = 1; i < str.length(); i++) {
+    if (str.charAt(i) == sun) {
+      divaDance++;
+      max = Math.max(max, len);
+    }else{
+      divaDance = 1;
+      sun = str.charAt(i);
+    }
+  }
+  string fin = sun + " " + divaDance
+  return fin;
+}
+
+// can't figure out how to document the different characters and then compare them
