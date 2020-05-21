@@ -1,0 +1,17 @@
+1.
+LightSequence gradShow = new LightSequence("0101 0101 0101");
+
+2.
+gradShow.display();
+
+3.
+gradShow.changeSequence("0011 0011 0011");
+
+4.
+string resultSeq = gradShow.insertSegment("1111 1111", 4);
+
+5.
+String newSeq = oldSeq.replaceFirst(segment, "");
+
+6.
+System.out.println(Math.sqrt((a*a)+(b*b)));
