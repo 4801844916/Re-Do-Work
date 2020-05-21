@@ -1,22 +1,21 @@
 1.
 public returnHostName(){
-return hostName;
+  return hostName;
 }
 2.
 
-public void updateAddress(string a)
-{
-address = a;
+public void updateAddress(string a){
+  address = a;
 }
 
 3.
 public void message(string p){
-String inv = "Dear " + p + ", please attend my event at" + address + ". See you\nthen, " + hostName + ".");
-return inv;
+  String inv = "Dear " + p + ", please attend my event at" + address + ". See you\nthen, " + hostName + ".");
+  return inv;
 }
 
 4.
 public Invitation(string a){
-address = a;
-hostName = "Host";
+  address = a;
+  hostName = "Host";
 }
