@@ -1,0 +1,11 @@
+1.
+Thing snack = new Thing("potato chip");
+
+2.
+favFood.printMessage();
+
+3.
+String old = something.getName;
+Int random = Math.random() * old.length();
+String new = old.replace(random, "");
+something.setName(new);
