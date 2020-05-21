@@ -1,3 +1,4 @@
+1.
 public static int longestStreak(String str) {
   int max = 1;
   int divaDance = 1;
@@ -15,4 +16,4 @@ public static int longestStreak(String str) {
   return fin;
 }
 
-// can't figure out how to document the different characters and then compare them
+// I can't figure out how to document the different characters and then compare them
