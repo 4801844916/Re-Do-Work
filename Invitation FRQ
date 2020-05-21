@@ -2,8 +2,8 @@
 public returnHostName(){
   return hostName;
 }
-2.
 
+2.
 public void updateAddress(string a){
   address = a;
 }
