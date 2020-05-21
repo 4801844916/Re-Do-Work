@@ -1,12 +1,12 @@
 1.
 public int getPlayer2Move(int round){
-int multipass;
-if((round % 3) == 0){
-multipass = 3;
-}else if((round % 2) == 0){
-multipass = 2;
-}else{
-multipass = 1;
-}
-return multipass;
+  int multipass;
+  if((round % 3) == 0){
+    multipass = 3;
+   }else if((round % 2) == 0){
+    multipass = 2;
+  }else{
+    multipass = 1;
+  }
+  return multipass;
 }
